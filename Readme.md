@@ -1,5 +1,9 @@
-# FE Backend
-This repository holds the backend code for the NASA Space Challenge. It is developed using .NET and C# with the MVC framework. The backend strictly provides RESTful web APIs and is fully separated from the frontend.
+# Flat Earthers Backend
 
-### Temporary / Contributions
-All modifications should be made in the `preparation` branch rather than the main branch until the project is finalized.
+The backend searches and parses data from the USGS database, and parses it into a simplified format that can be easily understood by apps for fetching landsat images.
+On top of that, the backend is also responsible for keeping track of users, their selected targets, and notifying them when the next acquisition date would happen.
+
+The backend is built in C#, using ASP.NET.
+
+## Prerequisites
+You need to have ``dotnet`` installed. Installation procedures can be seen [here](https://dotnet.microsoft.com/en-us/download).
